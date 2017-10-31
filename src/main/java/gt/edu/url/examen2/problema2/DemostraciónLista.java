@@ -9,13 +9,25 @@ package gt.edu.url.examen2.problema2;
  *
  * @author Ana Godínez
  */
-public class DemostraciónLista<E> implements DemoList{
-
+public class DemostraciónLista implements DemoList{
+  
+        public ArrayList agrNum = new ArrayList();
+        public List<Integer> crearDemoLista() {
+       
+        agrNum.add(0, 4);
+        agrNum.add(0, 3);
+        agrNum.add(0, 2);
+        agrNum.add(1, 5);
+        agrNum.add(1, 6);
+        agrNum.add(3, 7);
+        agrNum.add(0, 8);
+        
+        return agrNum;
+        
+}
+        
+        
     
-    public List<Integer> crearDemoLista() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
     
-    
-    
+     
 }
