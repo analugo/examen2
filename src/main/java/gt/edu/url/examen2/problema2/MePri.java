@@ -13,9 +13,9 @@ public class MePri {
     
 public static void main(String[] args) {
 		List<Integer> showlist;
-		DemostraciónLista l1 = new DemostraciónLista();
+		DemostraciónLista sh = new DemostraciónLista();
 		
-		showlist = l1.crearDemoLista();
+		showlist = sh.crearDemoLista();
                 System.out.println(showlist);
     }
 }
