@@ -11,7 +11,7 @@ import java.util.NoSuchElementException;
  *
  * @author Ana Godínez
  */
-public class ListA<E> implements List<E>, Iterable<E> {
+public class AList<E> implements List<E>, Iterable<E> {
 	
 	/**
 	 * Implementacion de iterador basado en el iterador oficial de Java
@@ -35,7 +35,7 @@ public class ListA<E> implements List<E>, Iterable<E> {
 		
 		public void remove() throws IllegalStateException {
 			if (!removable) throw new IllegalStateException("nothing to remove");
-				ListA.this.remove(j-1);
+				AList.this.remove(j-1);
 			j--;
 			removable = false;
 		}
@@ -49,11 +49,11 @@ public class ListA<E> implements List<E>, Iterable<E> {
 	private E[] data;
 	private int size = 0;
 
-	public ListA() {
+	public AList() {
 		this(CAPACITY);
 	}
 
-	public ListA(int capacity) {
+	public AList(int capacity) {
 		data = (E[]) new Object[capacity];
 	}
 
