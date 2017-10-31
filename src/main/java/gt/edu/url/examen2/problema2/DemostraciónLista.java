@@ -11,7 +11,7 @@ package gt.edu.url.examen2.problema2;
  */
 public class DemostraciónLista implements DemoList{
   
-        public ArrayList agrNum = new ArrayList();
+        public ListA agrNum = new ListA();
         public List<Integer> crearDemoLista() {
        
         agrNum.add(0, 4);
