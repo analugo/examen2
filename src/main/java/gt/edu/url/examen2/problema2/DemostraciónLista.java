@@ -4,19 +4,18 @@
  * and open the template in the editor.
  */
 package gt.edu.url.examen2.problema2;
-import java.util.Iterator;
-import java.util.NoSuchElementException;
 
 /**
  *
  * @author Ana Godínez
  */
-public class DemostraciónLista<E> implements List<E>, DemoList{
+public class DemostraciónLista<E> implements DemoList{
+
     
-   public ArrayList(int capacity){
-        this(CAPACITY);
-   }
+    public List<Integer> crearDemoLista() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
     
-    return Problema2;
+    
 }

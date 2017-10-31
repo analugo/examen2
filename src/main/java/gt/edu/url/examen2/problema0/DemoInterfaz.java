@@ -8,6 +8,7 @@ package gt.edu.url.examen2.problema0;
 /**
  *
  * @author tuxtor
+ * @author Ana G
  */
 public interface DemoInterfaz {
     public String saludarClase(String nombre);
